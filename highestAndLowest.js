@@ -1,7 +1,4 @@
 function highAndLow(numbers){
-  var num = numbers.split(' ');
-  var max = Math.max.apply(null, num);
-  var min = Math.min.apply(null, num);
-  var mm = String(max) + " " + String(min);
-  return mm;
+    numbers = numbers.split(' ').map(Number);
+  return Math.max.apply(0, numbers) + ' ' + Math.min.apply(0, numbers);
 }
