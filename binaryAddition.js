@@ -3,6 +3,6 @@
 // The binary number returned should be a string.
 
 function addBinary(a,b) {
-const add = a + b;
-return add.toString(2);
+const add = a + b
+return add.toString(2)
 }
