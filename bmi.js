@@ -8,8 +8,9 @@
 //
 // if bmi > 30 return "Obese"
 function bmi(weight, height) {
-  let heig = height*height
-  let bmiRes = weight/heig
+  let heig = height*height;
+  let bmiRes = weight/heig;
+  
   console.log(bmiRes)
 
 
