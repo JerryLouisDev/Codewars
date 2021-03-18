@@ -2,7 +2,7 @@
 
 function find_average(array) {
   let sum = array.reduce((a,b) => {
-    return a + b
+    return a + b;
   })
   const average = sum / array.length
   console.log(average)
