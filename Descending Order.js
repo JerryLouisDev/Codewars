@@ -9,7 +9,7 @@ function descendingOrder(n){
   // step 3 sort the array to largest to smallest
   arr.sort((a,b) => b - a);
   // step 4 join the array back into a string
-  const newNum = arr.join('');
+  const newNum = arr.join('')
   // step 5 turn back into a number
   return +newNum
 }
